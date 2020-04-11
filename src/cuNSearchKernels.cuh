@@ -7,7 +7,7 @@
 #define CUDA_META_GRID_GROUP_SIZE 8
 #define CUDA_META_GRID_BLOCK_SIZE (CUDA_META_GRID_GROUP_SIZE*CUDA_META_GRID_GROUP_SIZE*CUDA_META_GRID_GROUP_SIZE)
 
-typedef unsigned int uint;
+// typedef unsigned int uint;
 typedef unsigned char byte;
 using namespace cuNSearch;
 
