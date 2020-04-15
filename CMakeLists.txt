@@ -79,6 +79,7 @@ target_include_directories(cuNSearch PUBLIC
 	"Utils"
 	${CUDA_INCLUDE_DIRS}
 	${CMAKE_BINARY_DIR}/cuNSearch
+	${CMAKE_CURRENT_BINARY_DIR}/cuNSearch
 )
 target_link_libraries(cuNSearch PUBLIC ${CUDA_LIBRARIES})
 target_compile_definitions(cuNSearch PUBLIC $<$<CONFIG:DEBUG>:DEBUG>)
